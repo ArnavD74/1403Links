@@ -1,3 +1,21 @@
+body {
+  background-color: #d5f7d9;
+}
+
+.bottomR {
+  position:absolute;
+  bottom:0;
+  left: 0;
+  padding-left: 15px;
+}
+
+.bottomL {
+  position:absolute;
+  bottom:0;
+  right: 0;
+  padding-right: 15px;
+}
+
 #primary_nav_wrap
 {
 	margin-top:15px
@@ -6,11 +24,12 @@
 
 #primary_nav_wrap ul
 {
-	list-style:none;
+  list-style:none;
 	position:relative;
 	float:left;
 	margin:0;
 	padding:0
+  text-decoration: none;
 }
 
 #primary_nav_wrap ul a
@@ -29,8 +48,9 @@
 {
 	position:relative;
 	float:left;
-	margin:0;
-	padding:0
+	margin: 10px;
+	padding:0;
+  background: #CCD486;
 }
 
 #primary_nav_wrap ul li.current-menu-item
@@ -40,7 +60,7 @@
 
 #primary_nav_wrap ul li:hover
 {
-	background:#f6f6f6
+	background:#EDDB2F
 }
 
 #primary_nav_wrap ul ul
@@ -50,7 +70,7 @@
 	position:absolute;
 	top:100%;
 	left:0;
-	background:#fff;
+	background:#2C5528;
   color: green;
 	padding:0
 }
