@@ -21,7 +21,6 @@ body {
 	margin-top:15px
 }
 
-
 #primary_nav_wrap ul
 {
   list-style:none;
@@ -49,13 +48,8 @@ body {
 	position:relative;
 	float:left;
 	margin: 10px;
-	padding:0;
+	padding: 0;
   background: #CCD486;
-}
-
-#primary_nav_wrap ul li.current-menu-item
-{
-	background:#ddd
 }
 
 #primary_nav_wrap ul li:hover
