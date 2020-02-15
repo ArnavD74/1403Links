@@ -3,9 +3,18 @@ body {
   background-color: #D5D5D5;
 }
 
+p { margin: 1px 0;}
+
 .title {
   padding-left: 15px;
   font-size: 50px;
+}
+
+.middle {
+  position: relative;
+  top: 0px;
+  left: 50;
+  width: 500px;
 }
 
 .bottomR {
@@ -20,6 +29,7 @@ body {
   bottom: 0;
   right: 0;
   padding-right: 15px;
+
 }
 
 .noDec {
