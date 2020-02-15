@@ -12,7 +12,7 @@ p { margin: 1px 0;}
 
 .middle {
   position: relative;
-  top: 0px;
+  top: 100px;
   left: 50;
   width: 500px;
 }
